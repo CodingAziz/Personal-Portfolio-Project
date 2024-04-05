@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+header h1 {
+    margin-left: 200px;
+    font-family: "Italiana", sans-serif;
+    font-weight: bolder;
+}
+
+
+.nav-list {
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+
+img {
+    float: right;
+    margin: 10px 55px;
+    width: 400px;
+    height: 400px;
+}
+
+
+#about {
+    margin: 100px 200px;
+}
+
+
+#project {
+    margin: 100px 200px;
+}
+
+#project li {
+    margin-left: 15px;
+    font-weight: bold;
+    list-style-type: circle;
+}
+
+#skills {
+    margin: 100px 200px;
+}
+
+#skills i {
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+#contact {
+    margin: 100px 200px;
+}
+
+#contact i {
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+    #about {
+        margin: 50px 150px;
+    }
+
+    #project {
+        margin: 50px 150px;
+    }
+
+    #skills {
+        margin: 50px 150px;
+    }
+
+    #contact {
+        margin: 50px 150px;
+    }
+}
